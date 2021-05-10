@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.movie-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+  width: 70%;
+}
+
+.movie-poster {
+  width: 100%;
+}
